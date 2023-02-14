@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <style>
+     h1{
+         color:red;
+         font-weight:bold;
+         background-color:#FFFBEB;
+     }
+     div p{
+         font-size:150%;
+         padding:20px;
+     }
+     
+     nav a:hover{
+         display:inline;
+        text-decoration:none;
+          }
+    
+    
+body{
+    font-family: poppins;
+    margin:0;
+    display:grid;
+}
+main{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+footer{
+    display:-webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: row wrap;
+    padding:50px;
+    color:#fff;
+    background-color:#25242a;
+    
+}
+.footer > *{
+    flex:1 100%;
+}
+.left-area{
+    margin-right: 1em;
+}
+h2{
+    font-size:18px;
+    font-weight:600;
+    text-transform:uppercase;
+    color:darkorange;
+    letter-spacing:2px;
+    
+}
+ </style>
+    <title>About Us</title>
+</head>
+<body>
+<headrer>
+<nav>
+    <a href="#">Home</a> &nbsp;&nbsp;
+    <a href="#">How It Works</a> &nbsp;&nbsp;
+    <a href="#">Why Choose Us</a> &nbsp;&nbsp;
+    <a href="#">Help&FAQ</a> 
+</nav>
+<h1>About Us</h1><hr>
+</header>
+<main>
+<div>
+    <p><b>Talenhub</b> is a pioneering website/brand in India, envisioned to be the definitive mobile platform for Media and Entertainment Industry. We are a talent-hiring & engagement platform in the country - combined with being the specialized talent-service marketplace for the industry.</p>
+        <p>
+        This includes a vast market of...
+       </p>
+       <p>
+           ...and more. In the current market dynamics, this vast community has no credible online alternative to conventional and unorganized 'middle-men' for business hiring, and poorly catalogued online directories for home and personal projects.
+       </p>
+</div>
+</main>
+    <footer class="footer">
+       <div class="left-area">
+           <h2>Contact Us</h2>
+           <ul class="box">
+               <li>Sahyog Nagar Behind</li>
+               <li>Kalani Nagar</li>
+               <li>Indore (M.P)</li>
+               <li>452002</li>
+          </ul>
+       </div>        
+       <ul class="right-area">
+           <li class="link-area">
+               <h2>Useful Links </h2>
+               <ul class="box h-box">
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Why Choose Us</a></li>
+                   <li><a href="#">Help&FAQ</a></li>
+                   
+               </ul>
+         </li>
+       </ul>
+       <div class="socials">
+           <a href="#"><i class="fa fa-facebook"></i></a>
+           <a href="#"><i class="fa fa-snapchat"></i></a>
+           <a href="#"><i class="fa fa-instagram"></i></a>
+           <a href="#"><i class="fa fa-youtube"></i></a>
+           
+       </div>
+    </footer>
+
+</body>
+</html>
